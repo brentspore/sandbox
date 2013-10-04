@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eVid 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-03 22:59+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:6
+msgid "Sorry, the page your requested could not be found, or no longer exists."
+msgstr ""
+
+#: ../category.php:6
+msgid "Currently Browsing: "
+msgstr ""
+
+#: ../category.php:39
+#: ../home.php:54
+#: ../index.php:43
+#: ../page.php:25
+#: ../single.php:23
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../category.php:53
+#: ../home.php:67
+#: ../index.php:56
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: ../category.php:54
+#: ../home.php:68
+#: ../index.php:57
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../category.php:59
+#: ../index.php:63
+#: ../page.php:68
+#: ../single.php:80
+msgid "No Results Found"
+msgstr ""
+
+#: ../category.php:60
+#: ../index.php:64
+#: ../page.php:69
+#: ../single.php:81
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#: ../footer.php:3
+msgid "Powered by"
+msgstr ""
+
+#: ../footer.php:3
+msgid "Designed by"
+msgstr ""
+
+#: ../header.php:72
+msgid "Home"
+msgstr ""
+
+#: ../page.php:14
+#: ../single.php:12
+msgid "Embed This Video"
+msgstr ""
+
+#: ../page.php:19
+#: ../single.php:17
+msgid "Share This Video"
+msgstr ""
+
+#: ../page.php:22
+#: ../single.php:20
+msgid "Link To This Video"
+msgstr ""
+
+#: ../page.php:28
+#: ../single.php:26
+msgid "test"
+msgstr ""
+
+#: ../page.php:29
+#: ../single.php:27
+msgid "Rate This Video"
+msgstr ""
+
+#: ../page.php:35
+#: ../single.php:33
+msgid "Tags For This Video"
+msgstr ""
+
+#: ../page.php:39
+#: ../single.php:37
+msgid "Related Videos"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../includes/ads.php:2
+msgid "we recommend"
+msgstr ""
+
+#: ../includes/catbox.php:5
+#: ../includes/catbox.php:37
+msgid "Recent From"
+msgstr ""
+
+#: ../includes/comments1.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../includes/comments1.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../includes/comments1.php:20
+msgid "No Responses"
+msgstr ""
+
+#: ../includes/comments1.php:20
+msgid "One Response"
+msgstr ""
+
+#: ../includes/comments1.php:20
+msgid "% Responses"
+msgstr ""
+
+#: ../includes/comments1.php:20
+msgid "to &#8220;"
+msgstr ""
+
+#: ../includes/comments1.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../includes/comments1.php:43
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../includes/comments1.php:43
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../includes/comments1.php:49
+msgid "You must be"
+msgstr ""
+
+#: ../includes/comments1.php:49
+msgid "logged in"
+msgstr ""
+
+#: ../includes/comments1.php:49
+msgid "to post a comment."
+msgstr ""
+
+#: ../includes/comments1.php:53
+msgid "Logged in as"
+msgstr ""
+
+#: ../includes/comments1.php:53
+#: ../includes/comments2.php:52
+msgid "Log out of this account"
+msgstr ""
+
+#: ../includes/comments1.php:53
+#: ../includes/comments2.php:53
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../includes/comments1.php:57
+#: ../includes/comments2.php:59
+msgid "Name"
+msgstr ""
+
+#: ../includes/comments1.php:58
+#: ../includes/comments1.php:64
+#: ../includes/comments2.php:60
+#: ../includes/comments2.php:67
+msgid "(required)"
+msgstr ""
+
+#: ../includes/comments1.php:63
+#: ../includes/comments2.php:66
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: ../includes/comments1.php:69
+#: ../includes/comments2.php:73
+msgid "Website"
+msgstr ""
+
+#: ../includes/comments1.php:77
+#: ../includes/comments2.php:82
+msgid "Submit Comment"
+msgstr ""
+
+#: ../includes/comments2.php:4
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: ../includes/comments2.php:8
+#: ../includes/featured.php:30
+msgid "No Comments"
+msgstr ""
+
+#: ../includes/comments2.php:8
+#: ../includes/featured.php:30
+msgid "1 Comment"
+msgstr ""
+
+#: ../includes/comments2.php:8
+#: ../includes/featured.php:30
+msgid "% Comments"
+msgstr ""
+
+#: ../includes/comments2.php:10
+#: ../includes/comments2.php:45
+msgid "Leave a comment"
+msgstr ""
+
+#: ../includes/comments2.php:20
+msgid "says:"
+msgstr ""
+
+#: ../includes/comments2.php:32
+msgid "No comments yet."
+msgstr ""
+
+#: ../includes/comments2.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr ""
+
+#: ../includes/comments2.php:39
+msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr ""
+
+#: ../includes/comments2.php:48
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../includes/comments2.php:52
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: ../includes/comments2.php:77
+#, php-format
+msgid "You can use these tags: %s"
+msgstr ""
+
+#: ../includes/comments2.php:90
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: ../includes/featured.php:25
+msgid "Posted by"
+msgstr ""
+
+#: ../includes/featured.php:27
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "in"
+msgstr ""
+
+#: ../includes/featured.php:27
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "on"
+msgstr ""
+
+#: ../includes/popular.php:3
+msgid "Popular Articles"
+msgstr ""
+
+#: ../includes/popular.php:21
+msgid "Random Articles"
+msgstr ""
+
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "Posted"
+msgstr ""
+
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "by"
+msgstr ""
+
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "0 comments"
+msgstr ""
+
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "1 comment"
+msgstr ""
+
+#: ../includes/postinfo.php:2
+#: ../includes/postinfo.php:5
+msgid "comments"
+msgstr ""
+
+#: ../includes/functions/comments.php:12
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../includes/functions/comments.php:13
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/functions/comments.php:13
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/functions/comments.php:17
+msgid "Your comment is awaiting moderation."
+msgstr ""
+

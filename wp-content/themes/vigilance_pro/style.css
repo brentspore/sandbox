@@ -1,0 +1,264 @@
+/*
+Theme Name: Vigilance PRO Child Theme
+Theme URI: http://thethemefoundry.com/vigilance/
+Description: Custom child theme for PRO Members.
+Version: 1.40
+Author: Drew Strojny
+Author URI: http://thethemefoundry.com
+Template: vigilance
+*/
+
+/* Import Stylesheets, don't remove these.
+-----------------------------------------------------------*/
+@import url("../vigilance/stylesheets/master.css");
+
+/* Required WordPress Classes, don't remove these.
+-----------------------------------------------------------*/
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Page Templates
+-----------------------------------------------------------*/
+#content.no-sidebar { width: 920px; }
+#content.no-sidebar li.comment { width: 560px; }
+body.page-template-left-sidebar-php #sidebar {
+	width: 300px;
+	float: left;
+	padding: 0;
+}
+body.page-template-left-sidebar-php #content {
+	width: 600px;
+	float: right;
+	padding: 20px 0 20px 20px;
+}
+
+/* Make all custom CSS changes BELOW this line
+-----------------------------------------------------------*/
+/* Example: Change the sidebar background to blue:
+#sidebar {
+	background: blue;
+}
+*/
+
+@font-face {
+  font-family: HoeflerText-RegularItalic;
+  src: url("/fonts/italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: HoeflerText-Roman;
+	src: url("/fonts/regular.ttf") format("truetype");
+}
+
+body {
+	background: url('/wp-content/themes/vigilance_pro/images/bg.gif') repeat-x top center #e7e7e7;
+	font-family: HoeflerText-Roman,cambria, georgia, serif;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.post {
+	padding: 25px 55px 15px 55px;
+	background: url('/wp-content/themes/vigilance_pro/images/section-bg.png') bottom center no-repeat;
+}
+
+h1.pagetitle, h2.pagetitle {
+	border: none;
+}
+
+.pagetitle {
+	margin-bottom: 0;
+	padding: 25px 55px 0 55px;
+}
+
+.page {
+	padding: 0 55px 15px 55px;
+}
+
+.comment-number {
+	font-family: HoeflerText-RegularItalic;
+	margin: 0 55px 15px 55px;
+}
+
+#respond {
+	padding: 0 55px 15px 55px;
+}
+
+.comments {
+	text-transform: none;
+	font-family: HoeflerText-RegularItalic;
+	font-size: 14px;
+	padding: 3px 0 0 30px;
+	background: url('/wp-content/themes/vigilance_pro/images/li.png') no-repeat;
+}
+
+.comments a {
+	text-transform: none;
+	font-family: HoeflerText-RegularItalic;
+	background: none;
+	padding: 0;
+}
+
+.date {
+	font-family: HoeflerText-Roman;
+	color: #58181b;
+	text-transform: none;
+	margin-top:  -10px;
+}
+
+.post-header {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.post-header h2 {
+	font-family: HoeflerText-RegularItalic;
+}
+
+.post-footer {
+	padding-bottom: 2px;
+	margin: 0 0 10px 0;
+	font-size: 1.1em;
+	font-style: italic;
+	text-align: right;
+	color: #666;
+	border-bottom: none;
+}
+
+#top-ribbon {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#wrapper {
+	width: 930px;
+}
+
+#header {
+	border: none;
+	margin: -200px 0 175px 0;
+}
+
+#header li a {
+	font-family: HoeflerText-RegularItalic;
+	padding-top:  5px;
+}
+
+#content-top {
+	background: url('/wp-content/themes/vigilance_pro/images/content-top.png') no-repeat top center;
+	width: 600px;
+	height: 31px;
+	float: left;
+}
+#content-bottom {
+	background: url('/wp-content/themes/vigilance_pro/images/content-bottom.png') no-repeat bottom center;
+	width: 600px;
+	height: 145px;
+	float: left;
+	text-align: center;
+	font-family: HoeflerText-RegularItalic;
+	font-size: 16px;
+}
+
+#content-bottom p {
+	margin-top:  15px;
+}
+
+#content-bg {
+	background: url('/wp-content/themes/vigilance_pro/images/content-bg.png') repeat-y top center;
+	width: 600px;
+	float: left;
+}
+
+#footer {
+	border: none;
+}
+
+#ribbon {
+	width:772px;
+	margin:0 0 0 -86px;
+}
+
+#ribbon img {
+	float:left;
+}
+
+ul li.widget ul li a {
+	display: block;
+	padding: 10px 0 0 30px;
+	background: url(/wp-content/themes/vigilance_pro/images/li.png) no-repeat 0 6px;
+}
+
+ul li.widget ul li a:hover {
+	display: block;
+	padding: 10px 0 0 30px;
+	background: url(/wp-content/themes/vigilance_pro/images/li.png) no-repeat 0 6px;
+}
+
+ul li.widget_twitter ul li a {
+	display: inline;
+	padding:  0;
+	margin:  0;
+	background: none;
+}
+
+ul li.widget_twitter ul li a:hover {
+	display: inline;
+	padding:  0;
+	margin:  0;
+	background: none;
+}
+
+.post img {
+	border: 5px solid #c9c9c9;
+	max-width:  480px;
+	overflow:  hidden;
+	float:  right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+h2.widgettitle {
+	background: url('/wp-content/themes/vigilance_pro/images/sidebar-title-bg.png') left top no-repeat;
+	height: 54px;
+	width: 471px;
+	margin: 30px 0 0 -50px;
+	padding: 20px 0 0 25px;
+	font-size: 1.7em;
+	font-weight: normal;
+	font-family: HoeflerText-Roman;
+	border-bottom: none;
+	color:  #fff;
+	letter-spacing: normal;
+	text-transform: none;
+	text-shadow: 0 1px 1px #111;
+}
+
+h2.widgettitle a {
+	color:  #fff;
+}
+
+h2.widgettitle a:hover {
+	
+}
+
+.widgettitle ul li {
+	border: none
+}
+
+#content {
+	padding-right: 15px;
+}
+
+.textwidget {
+	margin-top:  20px;
+}
+
+.youtube object {
+	margin-top: 20px;
+}

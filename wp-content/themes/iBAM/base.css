@@ -1,0 +1,115 @@
+/*	=GENERAL PAGE RESET
+	------------------------------------------------------ */
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+body {
+	font-size: 85%;
+	height: 100%;
+	background: #eee;
+	color: #333;
+	line-height: 1.4;
+}
+body, input, button, textarea, select {
+	font-family: Arial, Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Lucide Grande, Helvetica, sans-serif;
+}
+pre, tt, code, kbd, samp, var {
+	font-family: "Courier New", Courier, monospace;
+}
+
+/*	=DEFAULT HEADER SIZES
+	------------------------------------------------------ */
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; }
+h1, h2, h3, h4, h5 {font-weight: normal;}
+
+/*	=DEFAULT LINKS
+	------------------------------------------------------ */
+a:link {color: #000;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:focus {text-decoration: none;}
+a:focus,:focus {outline: 1px dotted #000;}
+a:active {outline: none;}
+
+/*	=BLANKET MARGIN / PADDING
+	------------------------------------------------------ */
+body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+/*	=REMOVE BORDERS FROM IMAGES
+	------------------------------------------------------ */
+fieldset, img {
+	border: 0;
+}
+
+/*	=REMOVES BOTTOM GAP FROM IMAGES
+	------------------------------------------------------ */
+img { vertical-align: bottom; }
+
+/*	=DEFAULT STYLE FOR LIST ITEMS
+	------------------------------------------------------ */
+ol li,
+ul ol li { list-style-type: decimal; }
+ul li { list-style-type: disc; }
+ul ul li { list-style-type: circle; }
+ul ul ul li { list-style-type: square; }
+ol ol li { list-style-type: lower-alpha; }
+ol ol ol li { list-style-type: lower-roman; }
+
+/*	=RESET TABLE - STILL NEED CELLSPACING=0
+	------------------------------------------------------ */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th { text-align: center; }
+tbody th { text-align: left;}
+
+/*	=CODE STYLE RESET
+	------------------------------------------------------ */
+code {color: #06f;}
+code, pre {font-family: "Courier New", monospace, serif; font-size: 1em;}
+
+/*	=HIGHLIGHTING THE ITALIC
+	------------------------------------------------------ */
+blockquote, q, em, cite, dfn, i, cite, var, address {
+	font-style: italic;
+}
+
+/*	=RESET TEXT
+	------------------------------------------------------ */
+th, strong, dt, b {
+	font-weight: bold;
+}
+del { text-decoration: line-through; }
+
+/*	=LABEL + INPUT ALIGNMENT
+	------------------------------------------------------ */
+input[type="radio"] { vertical-align: text-bottom; }
+
+/*	=VERTICAL ALIGNMENT FOR IE6
+	------------------------------------------------------ */
+input { _vertical-align: text-bottom; }
+
+/*	=FIX FOR ADDING PADDING INSIDE HTML BUTTONS
+	------------------------------------------------------ */
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.inputButton {
+	*overflow: visible;
+	_width: 0;
+	padding: .2em .4em;
+}

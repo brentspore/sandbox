@@ -1,0 +1,14 @@
+.post-info2 { background-image: none !important; background-color: #272727; }
+.overlay { background-image: none !important; }
+.featured-inside { background-image: none !important; background-color: #272727; }
+.featured-inside a:visited { color: #FFF; }
+.position { position: fixed !important; }
+#left-div { margin-left: 3px !important; padding: 0px !important; width: 623px !important; }
+.home-post-wrap { margin-right: 12px; }
+#footer { margin-top: -1px; width: 942px !important; }
+.video2 { margin-top: 13px; }
+.ievideo-nav { margin-left: 50px !important; }
+#header2 { margin-top: -18px !important; }
+.lights { background-color: #000 !important; height: 1200px !important; }
+.commentlist { width: 560px !important; overflow: hidden; }
+.commentlist .children li { width: 85% !important; }
