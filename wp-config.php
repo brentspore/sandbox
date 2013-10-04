@@ -19,7 +19,7 @@
 define('DB_NAME', 'sandbox');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'sandbox');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'Speck2908');
